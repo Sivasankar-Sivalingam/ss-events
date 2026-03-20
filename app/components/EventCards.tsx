@@ -21,9 +21,9 @@ const EventCards = ({ title, image, location, date, time, slug }: Event) => {
         className="relative z-20 aspect-video w-full object-cover"
       />
       <CardHeader>
-        <CardAction>
+        {/* <CardAction>
           <Badge variant="secondary">{slug}</Badge>
-        </CardAction>
+        </CardAction> */}
         <CardTitle>{title}</CardTitle>
         <CardDescription>
           <div className="flex items-center gap-2">
